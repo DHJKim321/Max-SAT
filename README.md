@@ -3,5 +3,5 @@ not belong to the NP class, we can rephrase the question from an optimisation pr
 (where m is the total number of clauses) clauses" to a decision problem "Is there an assignment of these clauses such that 7/8 of them are satisfied?".
 
 The idea behind this algorithm is that we assign a variable to be true or false. Then, we see how many clauses this assignment has satisfied by taking the
-expected number of satisfied clauses. From here, we choose the assignment which has the higher probability, and we keep going until all clauses have been
+expected number of satisfied clauses. From here, we choose the assignment which has the higher value, and we keep going until all clauses have been
 satisfied.
